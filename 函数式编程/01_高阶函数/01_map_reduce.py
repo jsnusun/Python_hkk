@@ -78,8 +78,9 @@ def str2int(s):
     # print(list(map(char2num, s)))  # [1, 2, 3, 4, 5]
     return reduce(fn, map(char2num, s))
 
+
 # 考虑到字符串str也是一个序列
-print(str2int('12345'))  # 12345
+print(str2int('12345'))   # 12345
 
 
 from functools import reduce
@@ -95,7 +96,6 @@ def str2int(s):
 
 
 print(str2int('12345'))  # 12345
-
 
 # 练习
 # 利用map()函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。

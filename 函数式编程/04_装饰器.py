@@ -74,6 +74,7 @@ def log(text):
 def now():
     print('2017-12-2')
 
+
 now()
 # execute now():
 # 2017-12-2
@@ -108,6 +109,7 @@ def log(func):
 # 或者针对带参数的decorator：
 
 import functools
+
 
 def log(text):
     def decorator(func):

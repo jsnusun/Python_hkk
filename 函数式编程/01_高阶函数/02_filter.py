@@ -26,6 +26,7 @@ def is_odd(n):
 print(list(filter(is_odd, [1, 2, 3, 4, 5, 6, 7, 8, 9])))
 # [1, 3, 5, 7, 9]
 
+
 # 把一个序列中的空字符串删掉
 def not_empty(s):
     return s and s.strip()
